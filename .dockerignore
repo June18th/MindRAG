@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.pyc
+.coverage
+htmlcov/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Env
+.env
+.env.local
+*.local
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Docs
+docs/
+*.md
+LICENSE
+
+# Java (not needed in image)
+src/
+pom.xml
+*.iml
+.java-version
+target/
+
+# Frontend (built separately)
+frontend/
+
+# Scripts
+scripts/
+deploy-front.sh
+infra.sh
+launch.sh.example
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose.yaml
